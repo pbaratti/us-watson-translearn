@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 2048M
+  instances: 1
+  domain: mybluemix.net
+  name: us-watson-translearn
+  host: us-watson-translearn
+  disk_quota: 1024M
+  services:
+  - SingleSignOn for PwC
+  - us-watson-translearn-cloudantNoSQLDB
+  - Language Translator for PwC
+  - Document Conversion for PwC
